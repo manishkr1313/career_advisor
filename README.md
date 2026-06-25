@@ -64,15 +64,9 @@ Career Advisor is a web-based platform designed to help students explore career 
 * `img/` - Images
 * `uploads/` - Uploaded Files
 
-### Home Page
-![Home Page](screenshots/home_page.png)
-
-Add project screenshots here.
 
 ## Author
 
 Manish Kumar
 
-## License
-
-This project is for educational purposes.
+    This project is for educational purposes.
