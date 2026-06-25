@@ -1,3 +1,10 @@
+### Home Page
+![Home Page](screenshots/home_page.png)
+
+### Dashboard Page
+![Dashboard Page](screenshots/dashboard_page.png)
+
+
 # career_advisor
 
 Career Advisor is a web-based platform designed to help students explore career opportunities, colleges, courses, and educational pathways. The system provides personalized career guidance through aptitude quizzes and detailed college/course information.
