@@ -1,0 +1,162 @@
+.navbar {
+  background: linear-gradient(135deg, #020617, #081042, #4c1d95) !important;
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.1);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #7ea6ff !important;
+}
+
+.nav-link {
+  color: #dbe4ff !important;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d946ef !important;
+}
+
+.nav-link.active {
+  color: #7ea6ff !important;
+}
+/* Page Title */
+
+.page-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.page-title span {
+  color: #ff70df;
+}
+
+.page-subtitle {
+  color: #c7cdfd;
+  font-size: 17px;
+}
+
+/* Glass Card */
+
+.glass-card {
+  background: #08112d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+
+.card-header-gradient {
+  background: linear-gradient(90deg, #3b82f6, #d946ef);
+  color: white;
+  padding: 16px 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quiz-info p {
+  color: #d8deff;
+  margin-bottom: 15px;
+}
+
+.quiz-info strong {
+  color: white;
+}
+
+.question-count {
+  display: inline-block;
+  padding: 8px 18px;
+  background: linear-gradient(90deg, #3b82f6, #d946ef);
+  border-radius: 30px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.quiz-option {
+  background: #0f1b46;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px 18px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.quiz-option:hover {
+  background: #15275f;
+  border-color: #5d8cff;
+  transform: translateX(5px);
+}
+
+.quiz-option input {
+  transform: scale(1.2);
+  accent-color: #7c5cff;
+}
+
+.quiz-option label {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #3b82f6, #d946ef);
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.submit-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(59, 130, 246, 0.4);
+  color: white;
+}
+
+.cancel-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Question Card Body */
+.glass-card .card-body{
+    padding: 30px;
+}
+
+/* Question Count Center */
+.question-count{
+    display: inline-block;
+    margin: 15px auto 0;
+}
+
+.cancel-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+  color: white;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 30px;
+  }
+
+  .submit-btn,
+  .cancel-btn {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}

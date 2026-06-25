@@ -1,0 +1,62 @@
+.navbar {
+  background: linear-gradient(135deg, #020617, #081042, #4c1d95) !important;
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.15);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.1);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #7ea6ff !important;
+}
+
+.nav-link {
+  color: #dbe4ff !important;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d946ef !important;
+}
+
+.nav-link.active {
+  color: #7ea6ff !important;
+}
+
+.card {
+  background: #07153d;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-title,
+.card-text {
+  color: white;
+}
+
+.course-header {
+  background: linear-gradient(90deg, #2f6fff, #d946ef);
+  padding: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #2f6fff, #d946ef);
+  border: none;
+  border-radius: 15px;
+  padding: 12px 20px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1f57db, #c026d3);
+}
+
+footer {
+  background: #04102c !important;
+}
